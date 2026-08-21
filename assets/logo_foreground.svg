@@ -1,0 +1,36 @@
+<svg width="512" height="512" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blob" x1="10%" y1="5%" x2="95%" y2="100%">
+      <stop offset="0%" stop-color="#FF6F91"/>
+      <stop offset="55%" stop-color="#FFA65C"/>
+      <stop offset="100%" stop-color="#FFC24B"/>
+    </linearGradient>
+    <radialGradient id="sheen" cx="32%" cy="24%" r="30%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <g transform="translate(11.5,11.5) scale(0.85)">
+    <path d="M54,13
+             C65,12.5 76,18 81.5,29
+             C86.5,39 84,49 77.5,57
+             C73,62.5 70,66.5 68,74
+             C66,81 60,86 52,84.5
+             C45.5,83.3 43,77.5 36,75
+             C26,71.5 15.5,64.5 14,52.5
+             C12.5,41 20,31.5 28,25
+             C36,18.5 44.5,13.4 54,13 Z"
+          fill="url(#blob)"/>
+    <path d="M54,13
+             C65,12.5 76,18 81.5,29
+             C86.5,39 84,49 77.5,57
+             C73,62.5 70,66.5 68,74
+             C66,81 60,86 52,84.5
+             C45.5,83.3 43,77.5 36,75
+             C26,71.5 15.5,64.5 14,52.5
+             C12.5,41 20,31.5 28,25
+             C36,18.5 44.5,13.4 54,13 Z"
+          fill="url(#sheen)"/>
+  </g>
+</svg>

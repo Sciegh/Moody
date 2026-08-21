@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "754571982825",
+    "project_id": "moodify-7fac3",
+    "storage_bucket": "moodify-7fac3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:754571982825:android:f7abcc8c2a891c5bb5bd78",
+        "android_client_info": {
+          "package_name": "com.example.moodify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "754571982825-evtfsm29nfqcgp0a7786fessku1isccr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOKwKuujkDdnEhtc3oIZXLTMpgIB9G6AY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "754571982825-evtfsm29nfqcgp0a7786fessku1isccr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "754571982825-prt2rlgtns227k5qc1rgph1ejncpfo6q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.moody.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

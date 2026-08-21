@@ -1,0 +1,43 @@
+<svg width="512" height="512" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6EC"/>
+      <stop offset="100%" stop-color="#FFE7D3"/>
+    </linearGradient>
+    <linearGradient id="blob" x1="10%" y1="5%" x2="95%" y2="100%">
+      <stop offset="0%" stop-color="#FF6F91"/>
+      <stop offset="55%" stop-color="#FFA65C"/>
+      <stop offset="100%" stop-color="#FFC24B"/>
+    </linearGradient>
+    <radialGradient id="sheen" cx="32%" cy="24%" r="30%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background squircle, matches Moodify's cream scaffold -->
+  <rect x="0" y="0" width="100" height="100" rx="22" ry="22" fill="url(#bg)"/>
+
+  <!-- signature: single asymmetric mood blob, coral -> peach -> marigold -->
+  <path d="M54,13
+           C65,12.5 76,18 81.5,29
+           C86.5,39 84,49 77.5,57
+           C73,62.5 70,66.5 68,74
+           C66,81 60,86 52,84.5
+           C45.5,83.3 43,77.5 36,75
+           C26,71.5 15.5,64.5 14,52.5
+           C12.5,41 20,31.5 28,25
+           C36,18.5 44.5,13.4 54,13 Z"
+        fill="url(#blob)"/>
+
+  <path d="M54,13
+           C65,12.5 76,18 81.5,29
+           C86.5,39 84,49 77.5,57
+           C73,62.5 70,66.5 68,74
+           C66,81 60,86 52,84.5
+           C45.5,83.3 43,77.5 36,75
+           C26,71.5 15.5,64.5 14,52.5
+           C12.5,41 20,31.5 28,25
+           C36,18.5 44.5,13.4 54,13 Z"
+        fill="url(#sheen)"/>
+</svg>

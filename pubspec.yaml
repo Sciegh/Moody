@@ -1,0 +1,63 @@
+name: moodify
+description: Moodify — a mood-sharing app for friends.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1      # state management (chosen for this migration)
+  flutter_local_notifications: ^22.3.0
+  timezone: 0.11.1              # zonedSchedule() for the daily check-in reminder
+  flutter_timezone: ^5.1.0      # reads the device's real IANA timezone (DST-aware)
+  go_router: ^17.5.0            # declarative navigation between screens
+  google_fonts: ^8.2.1          # Baloo 2 + Quicksand, matching the HTML @import
+  flutter_secure_storage: ^11.0.0 # TODO: only actually used once secure-storage
+                                 # requirements (tokens/session) are implemented.
+                                 # Left as a dependency + service interface per
+                                 # the architecture diagram; see lib/services/.
+  url_launcher: ^6.3.0           # "Email us" on Help & support (mailto:) —
+  firebase_core: ^4.13.0
+  firebase_auth: ^6.5.7
+  cloud_firestore: ^6.8.0
+  firebase_storage: ^13.4.6
+  image_picker: ^1.2.3
+  firebase_messaging: ^16.5.0
+                                 # source used a plain <a href="mailto:...">.
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: "^0.14.4"
+  flutter_native_splash: ^2.4.8
+
+# FIX: Changed from flutter_icons to flutter_launcher_icons
+flutter_launcher_icons:
+  image_path: "assets/logo.png"
+  # FIX: Explicitly specify target platforms
+  android: true
+  ios: true
+  remove_alpha_ios: true # Recommended: prevents black backgrounds/App Store rejection on iOS
+
+flutter_native_splash:
+  color: "#FFF6EC"
+  image: assets/logo_foreground.png
+  branding: assets/wordmark.png
+  branding_mode: bottom
+  android_12:
+    image: assets/logo_foreground.png
+    icon_background_color: "#FFF6EC"
+    branding: assets/wordmark.png
+  fullscreen: true
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/logo_foreground.png
+    - assets/logo_background.png
+    - assets/wordmark.png
