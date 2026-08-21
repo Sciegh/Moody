@@ -1,3 +1,4 @@
-# moodify
+# Moody
 
-A new Flutter project.
+A mood-sharing app for friends.
+
